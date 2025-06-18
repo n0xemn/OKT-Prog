@@ -1,0 +1,4 @@
+media ponderara vc multiplica pelo peso, soma os 
+produtos e depois divide o resultado pela soma dos pesos
+////////////////////////////////////////////////////////
+
