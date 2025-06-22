@@ -36,6 +36,10 @@ int main(){
     }
     */
 
+    /*
+    mechendo com float ou double, em c++ ele eh impresso em notacao cientifica, se quiser imprimir que nem em c tem que usa fixed ex: cout <<fixed<<numero; e pra definir o tanto de casas decimais a serem impressas eh com setprecision(n) ex: ex: cout <<fixed<<setprecision(3)<<numero;
+    */
+
     int a, b = 1;
     cin >>a;
     b *= a;
