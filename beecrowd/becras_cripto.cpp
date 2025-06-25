@@ -7,12 +7,13 @@ int main(){
     string palavr;
     stack<char> aux;
     cin >>caso;
+    cin.ignore();
     for (int i = 0; i < caso; i++)
     {
         getline(cin, palavr);
         for (int j = 0; j < palavr.size(); j++)
         {
-            if ((palavr[j] > 'A' && palavr[j] < 'Z') || (palavr[j] > 'a' && palavr[j] < 'z'))
+            if ((palavr[j] >= 'A' && palavr[j] <= 'Z') || (palavr[j] >= 'a' && palavr[j] <= 'z'))
             {
                 palavr[j] += 3;
             }

@@ -3,8 +3,7 @@ produtos e depois divide o resultado pela soma dos pesos
 
 metade truncada e voce dividir um numero pela metade e tirar a
 parte decimal do resultado
+
+usar cin.ignore(); pra limpar o buffer e usar o getline(cin, nome_string);
 ////////////////////////////////////////////////////////
 
-primeira passada somente as letras devem se deslocar 3 posicoes 
-pra direita, na segunda inverte a ordem, na terceira , na terceira
-da metade da frase adiante deve ser deslocado 1 pra esquerda. 
