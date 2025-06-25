@@ -5,5 +5,12 @@ metade truncada e voce dividir um numero pela metade e tirar a
 parte decimal do resultado
 
 usar cin.ignore(); pra limpar o buffer e usar o getline(cin, nome_string);
+
+pra conseguir setar quantas casas decimais vc quer 
+que sejam imprimidas, usa fixed pra fazer ele nao escrever
+em notacao cientifica e setprecision(numero) pra determinae
+quantas casas serao impressas
 ////////////////////////////////////////////////////////
 
+numero que indica a coluna da matriz, 
+soma ou media.
