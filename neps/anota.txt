@@ -12,5 +12,3 @@ em notacao cientifica e setprecision(numero) pra determinae
 quantas casas serao impressas
 ////////////////////////////////////////////////////////
 
-numero que indica a coluna da matriz, 
-soma ou media.
