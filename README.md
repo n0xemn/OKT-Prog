@@ -1,2 +1,2 @@
 # OKT-Prog
-Coisas do Projeto de Estenção da Oktoplus Programação Competitiva
+Coisas do Projeto de Extensão da Oktoplus Programação Competitiva
