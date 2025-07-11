@@ -49,13 +49,38 @@ int main(){
     b *= a;
     cout <<b<<endl;
     */
-   int a, b;
-   a = b = 2;
-   cout <<a<<" "<<b<<endl;
+    /*
+    int a, b;
+    a = b = 2;
+    cout <<a<<" "<<b<<endl;
+    */
+    string teste;
+    vector<string> ah;
+    // getline(cin, teste); // ler string com espaços
+    cin >>teste;
+    ah.push_back(teste);
+    cin >>teste;
+    ah.push_back(teste);
+    
+    /*
+    for (int i = 0; i < ah.size(); i++)
+    {
+        cout <<ah[i]<<" ";
+    }
+    */
+    
+    //int a = teste.size();
+    cout <<ah.size()<<endl;
+
+    // SORT recebe um ponteiro pro primerio elemento a ser ordenado, depois um ponteiro para o primeiro element
+    // que nao sera ordenado, e uma funcao para a comparacao que o sort usara para fazer ordenacao, essa funcao
+    // deve retornar um valor boleano, retorna true se o primeiro parametro deveria ficar antes do segundo parametro
+    // de acordo com a comparacao
 
     return 0;
 }
 
+/*
 void exibir(vector<int> vec){
     for (int i = 0; i < vec.size(); i++)
     {
@@ -63,3 +88,4 @@ void exibir(vector<int> vec){
     }
     cout <<endl;
 }
+*/
